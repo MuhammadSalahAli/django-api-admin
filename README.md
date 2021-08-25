@@ -4,13 +4,13 @@ Expose django.contrib.admin as a restful service. useful for adding new features
 
 ## Features ⚡
 
-- [x] Expose all django.contrib.admin views as a restful api.
-- [x] Similar to django.contrib.admin.
-- [x] Customizable AdminSite and ModelAdmin.
-- [x] Supports InlineModelAdmins.
-- [x] Provides data to dynamically create forms on clients from serializers.
-- [x] Supports Arabic Language.
-- [x] Extensively tested
+* Expose all django.contrib.admin views as a restful api.
+* Similar to django.contrib.admin.
+* Customizable AdminSite and ModelAdmin.
+* Supports InlineModelAdmins.
+* Provides data to dynamically create forms on clients from serializers.
+* Supports Arabic Language.
+* Extensively tested
 
 ## Requirements 📄
 
@@ -95,7 +95,3 @@ $ python manage.py runsever
 ```
 
 visit your <a href="http://127.0.0.1:8000/api_admin">localhost</a> to see the browsable api.
-
-## Screenshots 🖼
-
-<img src="screenshots/browsable_api_root.png" alt="browsable_api_root"/>
